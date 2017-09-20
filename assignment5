@@ -1,0 +1,8 @@
+1. You get hired and on your first day, you realize that the last sysadmin had reset the root password on the server before you left.......and your manager asks you to reset the root password.
+     # assumption is that you don't know the root password
+  
+ 2. what do you understand by "runlevel" and how do i find out what run level i'm on
+ 3. what command will show me the kernel that is installed on my machine
+ 4. what command will update my entire system
+ 5. what command will tell me if i'm on either a physical machine or a virtual machine
+ 6. write a short script to tell me todays date anytime that i run it.
