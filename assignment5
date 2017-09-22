@@ -2,9 +2,36 @@
 
 1. You get hired and on your first day, you realize that the last sysadmin had reset the root password on the server before you left.......and your manager asks you to reset the root password.
      # assumption is that you don't know the root password
-  
+
+# Answer:
+# i.   reboot system and press any key or spacebar to interupt rebot
+#ii.  select instalation you want to edit and type a to enter append mode and edit the kernel 
+#iii. hit the spacebar and type single or 1 then press enter to enter single user mode
+#iv. Use the paswwd command to rest root password and reboot the system
+
  2. what do you understand by "runlevel" and how do i find out what run level i'm on
+#Answer:
+# A runlevle is a preset operating state of a Unix like system. To find out what runlevle you are on use the command "runlevle". 
+
  3. what command will show me the kernel that is installed on my machine
+#Answer 
+# $ uname (options) ... uname -a
  4. what command will update my entire system
+#Answers 
+# yum upgrade 
  5. what command will tell me if i'm on either a physical machine or a virtual machine
+#Answer
+#cat /proc/scsi/scsi
  6. write a short script to tell me todays date anytime that i run it.
+#Answer 
+#First Vim into a file then write script ex;
+#vim kerman
+#!/bin/bash
+clear
+date
+#then save and exit the file 
+#change permission of the file form read and write to read write and execute 
+chmod 775 kerman (when still in the same directory as file was creadted 
+#then run the script by typing 
+./kerman
+scripts a run by typing . (dot), then forward slash /, then the file name. 
