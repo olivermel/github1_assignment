@@ -34,4 +34,6 @@ date
 chmod 775 kerman (when still in the same directory as file was creadted 
 #then run the script by typing 
 ./kerman
-scripts a run by typing . (dot), then forward slash /, then the file name. 
+scripts a run by typing . (dot), then forward slash /, then the file name.
+# NB: when not in directory the script is located, to run you must use .(file path) 
+# ./usr/bin/kerman 
